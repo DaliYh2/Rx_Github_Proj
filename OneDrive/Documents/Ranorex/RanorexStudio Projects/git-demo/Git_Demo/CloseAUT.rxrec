@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+id="c2a2eae1-5b4a-4ae0-88f1-c604b8aa5e16"
+mode="Desktop">
+  <codegen classname="CloseAUT" namespace="Git_Demo"/>
+  <name>
+      CloseAUT
+  </name>
+  <variables>
+      <var
+          id="906dfb5b-54de-4540-8874-9565c7ee98d5"
+          name="CloseAutProcessIDVar">
+              -1
+      </var>
+  </variables>
+  <recorditems>
+      <closeapprecorditem
+        enabled="True"
+        graceperiod="500ms"
+        method="CloseWindowByProcessID"
+        optional="False">
+          <comment>
+          </comment>
+          <bindings>
+              <binding
+              target="ProcessID"
+              variable="CloseAutProcessIDVar">
+              </binding>
+          </bindings>
+      </closeapprecorditem>
+  </recorditems>
+  <repository name="Git_DemoRepository" relativepath="Git_DemoRepository.rxrep">
+  </repository>
+</recordtable>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0bb28d9d-6e0e-40e1-827b-6e76b2745c56"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="Rx_Git_Proj">
+	</codegen>
+	<variables>
+		<var
+		id="717fedb8-8d6c-4c1d-9b3c-f0981105f3ce"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="6b4009b4-4519-4284-a2d6-b577d5a30a06">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="3577f34e-5ba0-4bb6-9a0e-8b6de86eee3b"
+	name="Rx_Git_ProjRepository"
+	relativepath="Rx_Git_ProjRepository.rxrep">
+		<codegen
+		classname="Rx_Git_ProjRepository"
+		namespace="Rx_Git_Proj">
+		</codegen>
+		<rootfolder
+		id="b497b73b-bbf2-43de-9e36-c75321a1470b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

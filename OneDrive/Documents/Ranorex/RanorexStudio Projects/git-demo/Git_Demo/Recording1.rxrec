@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+id="faef3919-ff65-4584-9481-71e803da079b"
+mode="Desktop">
+  <codegen classname="Recording1" namespace="Git_Demo"/>
+  <name>
+      Recording1
+  </name>
+  <recorditems/>
+  <repository name="Git_DemoRepository" relativepath="Git_DemoRepository.rxrep">
+  </repository>
+</recordtable>

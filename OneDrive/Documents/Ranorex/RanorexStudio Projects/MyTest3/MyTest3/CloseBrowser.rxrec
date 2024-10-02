@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+id="627866cb-fa8c-43ce-abe7-505292d6ff47"
+mode="Desktop">
+  <codegen classname="CloseBrowser" namespace="MyTest3"/>
+  <name>
+      CloseBrowser
+  </name>
+  <recorditems>
+      <closeapprecorditem
+          enabled="True"
+          graceperiod="0ms"
+          method="CloseWindow"
+          optional="False">
+          <comment>
+          </comment>
+          <bindings>
+          </bindings>
+          <info id="187d2f98-7076-4c92-b90f-897167047a87"
+                sourcename="RepositoryEditor">
+              <path>
+                  /form[@processname='iexplore']
+              </path>
+          </info>
+      </closeapprecorditem>
+  </recorditems>
+  <repository name="MyTest3Repository" relativepath="MyTest3Repository.rxrep">
+  </repository>
+</recordtable>

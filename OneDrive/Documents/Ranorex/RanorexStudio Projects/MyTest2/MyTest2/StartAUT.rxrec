@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+id="d6c2ef33-cf2a-43b9-8b85-fb742dfa2aff"
+mode="Desktop">
+  <codegen classname="StartAUT" namespace="MyTest2"/>
+  <name>
+    StartAUT
+  </name>
+  <variables>
+      <var
+          id="2b2941dd-bbec-48cf-bfb7-61d345911526"
+          name="StartAutProcessIDVar">
+      </var>
+  </variables>
+  <recorditems>
+      <runapprecorditem
+          enabled="True"
+          maximized="False"
+          optional="False">
+          <comment>
+          </comment>
+          <bindings>
+              <binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+              </binding>
+          </bindings>
+          <filename>
+              C:\Users\dali yahyaoui\Downloads\Dumpper.exe
+          </filename>
+          <args>
+              
+          </args>
+      </runapprecorditem>
+  </recorditems>
+  <repository name="MyTest2Repository" relativepath="MyTest2Repository.rxrep">
+  </repository>
+</recordtable>

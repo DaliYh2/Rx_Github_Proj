@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+id="8507ec6c-a8d0-4052-860b-d7990757a0db"
+mode="Desktop">
+  <codegen classname="StartAUT" namespace="Git_Demo"/>
+  <name>
+    StartAUT
+  </name>
+  <variables>
+      <var
+          id="0f36ad0d-3717-44cd-b237-e7dd9b202f35"
+          name="StartAutProcessIDVar">
+      </var>
+  </variables>
+  <recorditems>
+      <runapprecorditem
+          enabled="True"
+          maximized="False"
+          optional="False">
+          <comment>
+          </comment>
+          <bindings>
+              <binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+              </binding>
+          </bindings>
+          <filename>
+              C:\Users\dali yahyaoui\Downloads\RxSampleIntroduction\Introduction\Introduction\RxDemoApp.exe
+          </filename>
+          <args>
+              
+          </args>
+      </runapprecorditem>
+  </recorditems>
+  <repository name="Git_DemoRepository" relativepath="Git_DemoRepository.rxrep">
+  </repository>
+</recordtable>

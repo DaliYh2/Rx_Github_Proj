@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+id="758b156b-086a-48a2-a960-178dc426f0b9"
+mode="Desktop">
+  <codegen classname="StartAUT" namespace="MyTest1"/>
+  <name>
+    StartAUT
+  </name>
+  <variables>
+      <var
+          id="966b8731-c44e-44d8-9051-3cd44bc010b4"
+          name="StartAutProcessIDVar">
+      </var>
+  </variables>
+  <recorditems>
+      <runapprecorditem
+          enabled="True"
+          maximized="False"
+          optional="False">
+          <comment>
+          </comment>
+          <bindings>
+              <binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+              </binding>
+          </bindings>
+          <filename>
+              C:\Users\dali yahyaoui\Downloads\Dropbox_apkpure_233.exe
+          </filename>
+          <args>
+              
+          </args>
+      </runapprecorditem>
+  </recorditems>
+  <repository name="MyTest1Repository" relativepath="MyTest1Repository.rxrep">
+  </repository>
+</recordtable>

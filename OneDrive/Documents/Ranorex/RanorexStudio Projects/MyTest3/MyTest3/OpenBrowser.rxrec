@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+id="bc2322fc-654f-480b-9eee-2c355f8c5012"
+mode="Desktop">
+  <codegen classname="OpenBrowser" namespace="MyTest3"/>
+  <name>
+    OpenBrowser
+  </name>
+  <recorditems>
+    <openwebsiterecorditem
+        args=""
+        browser="IE"
+        clearcache="False"
+        clearcookies="False"
+        enabled="True"
+        incognito="False"
+        instrument="True"
+        killexisting="False"
+        maximized="False"
+        optional="False">
+      <comment>
+      </comment>
+      <bindings>
+      </bindings>
+      <url>
+        https://www.ranorex.com
+      </url>
+    </openwebsiterecorditem>
+  </recorditems>
+  <repository name="MyTest3Repository" relativepath="MyTest3Repository.rxrep">
+  </repository>
+</recordtable>

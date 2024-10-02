@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+id="f1f85eb5-9ec2-4552-a87d-1e4c7ac74ffd"
+mode="Desktop">
+  <codegen classname="CloseAUT" namespace="MyTest2"/>
+  <name>
+      CloseAUT
+  </name>
+  <variables>
+      <var
+          id="b3b81064-49ab-46ab-bc1d-079563d3f585"
+          name="CloseAutProcessIDVar">
+              -1
+      </var>
+  </variables>
+  <recorditems>
+      <closeapprecorditem
+        enabled="True"
+        graceperiod="500ms"
+        method="CloseWindowByProcessID"
+        optional="False">
+          <comment>
+          </comment>
+          <bindings>
+              <binding
+              target="ProcessID"
+              variable="CloseAutProcessIDVar">
+              </binding>
+          </bindings>
+      </closeapprecorditem>
+  </recorditems>
+  <repository name="MyTest2Repository" relativepath="MyTest2Repository.rxrep">
+  </repository>
+</recordtable>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="cbcac7bb-72a6-47da-8060-19b776e14c31"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="Rx_Git_Proj">
+	</codegen>
+	<variables>
+		<var
+		id="1cf63582-bd7f-43c1-9273-fa439dafe03f"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files\Google\Chrome\Application\chrome.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="3577f34e-5ba0-4bb6-9a0e-8b6de86eee3b"
+	name="Rx_Git_ProjRepository"
+	relativepath="Rx_Git_ProjRepository.rxrep">
+		<codegen
+		classname="Rx_Git_ProjRepository"
+		namespace="Rx_Git_Proj">
+		</codegen>
+		<rootfolder
+		id="b497b73b-bbf2-43de-9e36-c75321a1470b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
